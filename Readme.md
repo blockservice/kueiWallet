@@ -1,7 +1,7 @@
 # ecoinWallet
 基于React-Native开发的离线HD钱包, 当前版本仅支持以太系.
 
-![ecoinWallet](https://raw.githubusercontent.com/ChungkueiBlock/ecoinWallet/docs/docs/images/ews_diagram.png)
+![ecoinWallet](https://raw.githubusercontent.com/ChungkueiBlock/ecoinWallet/docs/docs/images/ewsdiagram.png)
 
 ### Description
 ecoinWallet是一款离线钱包, 支持
