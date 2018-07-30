@@ -1,5 +1,5 @@
 # ecoinWallet
-基于react-native开发的离线HD钱包, 当前版本仅支持以太系.
+基于React-Native开发的离线HD钱包, 当前版本仅支持以太系.
 
 ### Description
 ecoinWallet是一款离线钱包, 支持
@@ -15,19 +15,19 @@ ecoinWallet是一款离线钱包, 支持
 ├── app.json
 ├── application
 │   ├── actions
-│   ├── components   //可服用的组件
+│   ├── components   //可复用的组件
 │   ├── config.js    //配置文件
-│   ├── core         //异步api,本地存储/api调用等
+│   ├── core         //异步api;本地存储/api调用等
 │   ├── index.js    
 │   ├── models       
 │   ├── reducers
 │   ├── router.js    //路由
-│   ├── screens      //对应每屏的试图
+│   ├── screens      //对应每屏的视图
 │   ├── stores
 │   ├── theme        //主题css
 │   └── utils        //工具函数
 ├── assets           //资源文件,图片等
-├── global.js        //覆盖全局缺失的Buffer/process变量,详情参考node-libs-browser.初始化一些全局工具
+├── global.js        //覆盖全局缺失的Buffer/process变量,详情参考node-libs-browser;初始化一些全局工具
 ├── index.js
 ├── ios
 ├── package.json
@@ -44,7 +44,7 @@ ecoinWallet是一款离线钱包, 支持
 └── yarn.lock
 ```
 
-### ecoinWallet基于react-native开发
+### ecoinWallet基于React-Native开发
 + 简洁的UI设计
 + 安全,关键数据使用用户密码加密存储
 + 私密,用户数据仅存在于设备本地,不上传服务器
@@ -53,7 +53,7 @@ ecoinWallet是一款离线钱包, 支持
 + 代码开源
 
 ### Requirements
-ecoinWallet基于react-native,开发套件的版本有严格要求
+ecoinWallet基于React-Native,开发套件的版本有严格要求
 + react-native: 0.55.4
 + react-native-cli: 2.0.1
 + android-sdk

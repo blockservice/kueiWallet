@@ -1,5 +1,5 @@
 # Roadmap
-XXXXWallet开发路线图预览
+ecoinWallet开发路线图预览
 
 ### Version:1.0 Beta Preview v1
 Beta Preview v1的目标是实现HD钱包的基础功能,主要包含:创建/恢复地址;离线签名发送交易;查看token列表;查看交易历史
@@ -17,8 +17,8 @@ Beta Preview v1的目标是实现HD钱包的基础功能,主要包含:创建/恢
 - ✔️ query transaction lists
 - ✔️ send eth/erc20 to other address
 - ✔️ open blockchain explorer in APP
-- ✔ splash screens
-- ✔ pull to refresh
+- ✔️ splash screens
+- ✔️ pull to refresh
 - add token
 - wallets selection drawer
 
@@ -56,10 +56,10 @@ UE Preview的目标是优化UI/UE,准备发布到App Store
 
 *Goals*:
 
-目标是设计支付API及后端服务;制作客户端支付SDK,供其他DAPP在需要时唤起XXXXWallet进行支付.DAPP无需重复开发支付模块,降低DAPP的开发成本.
+目标是设计支付API及后端服务;制作客户端支付SDK,供其他DAPP在需要时唤起ecoinWallet进行支付.DAPP无需重复开发支付模块,降低DAPP的开发成本.
 
 ### Version:5.0 整合dapp,构建一个应用内的DAPP市场
 
 *Goals*:
 
-目标是打造应用内的DAPP市场, 在XXXXWallet内即可使用各种网页版DAPP
+目标是打造应用内的DAPP市场, 在ecoinWallet内即可使用各种网页版DAPP
