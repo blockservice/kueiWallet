@@ -9,6 +9,7 @@ ecoinWallet是一款离线钱包, 支持
 + 私钥导入
 + keystore导入
 + 资产发送(eth/erc20)
++ 自动识别Token
 + Token列表查询
 + 交易历史查询
 
@@ -63,8 +64,8 @@ ecoinWallet基于React-Native,开发套件的版本有严格要求
 
 ### Develop
 ```bash
-git clone xxxxxxxxxxxxxxxxxxxxxxx
-cd xxxxx
+git clone https://github.com/ChungkueiBlock/ecoinWallet.git
+cd ecoinWallet
 yarn install
 react-native link
 react-native run-android

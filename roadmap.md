@@ -19,6 +19,7 @@ Beta Preview v1的目标是实现HD钱包的基础功能,主要包含:创建/恢
 - ✔️ open blockchain explorer in APP
 - ✔️ splash screens
 - ✔️ pull to refresh
+- ✔️ detect new token received
 - add token
 - wallets selection drawer
 
