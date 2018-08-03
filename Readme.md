@@ -1,10 +1,10 @@
-# ecoinWallet
+# kueiWallet
 基于React-Native开发的离线HD钱包, 当前版本仅支持以太系.
 
-![ecoinWallet](/docs/images/ews_diagram.png)
+![kueiWallet](/docs/images/ews_diagram.png)
 
 ### Description
-ecoinWallet是一款离线钱包, 支持
+kueiWallet是一款离线钱包, 支持
 + 助记词导入
 + 私钥导入
 + keystore导入
@@ -47,7 +47,7 @@ ecoinWallet是一款离线钱包, 支持
 └── yarn.lock
 ```
 
-### ecoinWallet基于React-Native开发
+### kueiWallet基于React-Native开发
 + 简洁的UI设计
 + 安全,关键数据使用用户密码加密存储
 + 私密,用户数据仅存在于设备本地,不上传服务器
@@ -56,7 +56,7 @@ ecoinWallet是一款离线钱包, 支持
 + 代码开源
 
 ### Requirements
-ecoinWallet基于React-Native,开发套件的版本有严格要求
+kueiWallet基于React-Native,开发套件的版本有严格要求
 + react-native: 0.55.4
 + react-native-cli: 2.0.1
 + android-sdk
@@ -64,8 +64,8 @@ ecoinWallet基于React-Native,开发套件的版本有严格要求
 
 ### Develop
 ```bash
-git clone https://github.com/ChungkueiBlock/ecoinWallet.git
-cd ecoinWallet
+git clone https://github.com/ChungkueiBlock/kueiWallet.git
+cd kueiWallet
 yarn install
 react-native link
 react-native run-android
@@ -75,7 +75,7 @@ react-native run-android
 ```bash
 rm -rf android ios
 react-native eject
-git reset --soft
+git reset --hard
 react-native link
 react-native run-android
 ```
